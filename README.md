@@ -20,3 +20,10 @@ $ docker run --rm -ti \
 	-v /path/to/db/:/var/lib/mysql \
 	mysql_install_db /root/example.json /var/lib/mysql
 ```
+
+## Example using docker_mysql_install_db.sh
+
+```
+$ mkdir -p /path/to/db/
+$ ./docker_mysql_install_db.sh /path/to/conf.json /path/to/db /path/to/db.sql
+```
